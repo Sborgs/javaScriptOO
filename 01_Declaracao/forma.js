@@ -1,14 +1,14 @@
-class Forma {
+class Forma {   
 
     constructor() {
-        this.tipoDeForma = 'Forma Abstrata';
+        this.tipoDeForma = 'Forma Abstrata';       
     }
 
     imprimeForma() {
-
-        alert(`Tipo de forma: ${this.tipoDeForma} - Área: ${this.calculaArea()}`);
-        //alert(`Tipo de Forma: ${this.tipoDeForma}`);
-
+       
+        // alert( `Tipo de forma: ${this.tipoDeForma} - Área: ${this.calculaArea()}`);
+        alert( `Tipo de forma: ${this.tipoDeForma}`);
+        
     }
 
     calculaArea() {

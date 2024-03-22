@@ -1,13 +1,19 @@
 class Forma {
 
-    constructor() {
-        this.tipoDeForma = 'Forma Abstrata';
+        constructor(tipoDeForma) {
+        //this.tipoDeForma = 'Forma Abstrata';
+        this.tipoDeForma = tipoDeForma;
     }
 
     imprimeForma() {
-
-        alert(`Tipo de forma: ${this.tipoDeForma} - Área: ${this.calculaArea()}`);
-        //alert(`Tipo de Forma: ${this.tipoDeForma}`);
+        //alert(`Tipo de forma: ${this.tipoDeForma} - Área: ${this.calculaArea()}`);
+        // ssssssssss //alert(`Tipo de Forma: ${this.tipoDeForma}`);
+        try{
+            alert(`tipo de forma: ${this.tipoDeForma} - Área: ${this.calculaArea()}`);
+            console.log("aqui");
+        } catch (error) {
+            alert("O código está com erro!")
+        }
 
     }
 
